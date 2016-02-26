@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+#whateverID {
+    height: 100%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    overflow:hidden;
+}
+
+.menu {
+    -webkit-app-region: drag;
+    width: 100%;
+    height: 22px;
+    display: none;
+    background-color: #000;
+}
+
+.app_container:hover .menu {
+    display: block;
+    top: 0px;
+    position: absolute;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}

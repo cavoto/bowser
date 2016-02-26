@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- build:css assets/css/app.css -->
+    <link rel="stylesheet" href="../bower_components/bulma/css/bulma.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- endbuild -->
+    <title>Hello World!</title>
+
+</head>
+
+<body class="app_container">
+    <div class="menu">
+        <!--<a href="javascript:void callPlayer('whateverID','playVideo')">Start</a> &bull; <a href="javascript:void callPlayer('whateverID','pauseVideo')">Pause</a>        &bull; <a href="javascript:void callPlayer('whateverID','stopVideo')">Stop</a>-->
+                        <input type="text" id="url" />
+                <input type="button" value="Go" onclick="validate();">
+    </div>
+    <div id="whateverID">
+        <iframe id="playerFrame" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/fjwWjx7Cw8I?enablejsapi=1"></iframe>
+    </div>
+    <!-- build:app scripts/app.js -->
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/callPlayer.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

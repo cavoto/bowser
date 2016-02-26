@@ -1,0 +1,6 @@
+{ 
+  "name": "bowser",
+  "version": "0.0.3",
+  "description": "A non annoying window",
+  "main": "main.js"
+} 
