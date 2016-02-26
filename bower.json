@@ -1,0 +1,24 @@
+{
+  "name": "bowser",
+  "description": "A non annoying window",
+  "main": "main.js",
+  "authors": [
+    "Paulo Cavoto <pcavoto@br.ibm.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.0.15"
+  }
+}
